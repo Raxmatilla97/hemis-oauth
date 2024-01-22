@@ -6,9 +6,9 @@ $employeeProvider = new \League\OAuth2\Client\Provider\GenericProvider([
     'clientId'                => '8 ',
     'clientSecret'            => '7WTnWmvTyIJL6Jd-ONDlKVUd_huYe8rr',
     'redirectUri'             => 'https://python.cspu.uz/index.php',
-    'urlAuthorize'            => 'https://student.cspi.uz/oauth/authorize',
-    'urlAccessToken'          => 'https://student.cspi.uz/oauth/access-token',
-    'urlResourceOwnerDetails' => 'https://student.cspi.uz/oauth/api/user?fields=id,uuid,employee_id_number,type,roles,name,login,email,picture,firstname,surname,patronymic,birth_date,university_id,phone'
+    'urlAuthorize'            => 'https://hemis.cspi.uz/oauth/authorize',
+    'urlAccessToken'          => 'https://hemis.cspi.uz/oauth/access-token',
+    'urlResourceOwnerDetails' => 'https://hemis.cspi.uz/oauth/api/user?fields=id,uuid,employee_id_number,type,roles,name,login,email,picture,firstname,surname,patronymic,birth_date,university_id,phone'
 ]);
 
 /*$studentProvider = new \League\OAuth2\Client\Provider\GenericProvider([

@@ -3,18 +3,18 @@ session_start();
 // Autoload files using the Composer autoloader.
 require_once __DIR__ . '/../vendor/autoload.php';
 $employeeProvider = new \League\OAuth2\Client\Provider\GenericProvider([
-    'clientId'                => '8',
-    'clientSecret'            => 'Vt5dnZtzK_v3vzs0ycsV2uLzrh7zicZUrz4TEiOI',
-    'redirectUri'             => 'http://hemis-oauth-test.lc/index.php',
-    'urlAuthorize'            => 'https://univer.hemis.uz/oauth/authorize',
-    'urlAccessToken'          => 'https://univer.hemis.uz/oauth/access-token',
-    'urlResourceOwnerDetails' => 'https://univer.hemis.uz/oauth/api/user?fields=id,uuid,employee_id_number,type,roles,name,login,email,picture,firstname,surname,patronymic,birth_date,university_id,phone'
+    'clientId'                => '3541911085',
+    'clientSecret'            => '7WTnWmvTyIJL6Jd-ONDlKVUd_huYe8rr',
+    'redirectUri'             => 'https://python.cspu.uz/index.php',
+    'urlAuthorize'            => 'https://hemis.cspi.uz/oauth/authorize',
+    'urlAccessToken'          => 'https://hemis.cspi.uz/oauth/access-token',
+    'urlResourceOwnerDetails' => 'https://hemis.cspi.uz/oauth/api/user?fields=id,uuid,employee_id_number,type,roles,name,login,email,picture,firstname,surname,patronymic,birth_date,university_id,phone'
 ]);
 
 /*$studentProvider = new \League\OAuth2\Client\Provider\GenericProvider([
     'clientId'                => '8',
     'clientSecret'            => 'Vt5dnZtzK_v3vzs0ycsV2uLzrh7zicZUrz4TEiOI',
-    'redirectUri'             => 'http://hemis-oauth-test.lc/index.php',
+    'redirectUri'             => 'http://hemis-oauth-test.lc/index.php',    
     'urlAuthorize'            => 'https://student.hemis.uz/oauth/authorize',
     'urlAccessToken'          => 'https://student.hemis.uz/oauth/access-token',
     'urlResourceOwnerDetails' => 'https://student.hemis.uz/oauth/api/user'

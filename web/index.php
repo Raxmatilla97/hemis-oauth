@@ -3,7 +3,7 @@ session_start();
 // Autoload files using the Composer autoloader.
 require_once __DIR__ . '/../vendor/autoload.php';
 $employeeProvider = new \League\OAuth2\Client\Provider\GenericProvider([
-    'clientId'                => 3541911085,
+    'clientId'                => '3541911085',
     'clientSecret'            => '7WTnWmvTyIJL6Jd-ONDlKVUd_huYe8rr',
     'redirectUri'             => 'https://python.cspu.uz/index.php',
     'urlAuthorize'            => 'https://hemis.cspi.uz/oauth/authorize',
